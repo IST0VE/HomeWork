@@ -1,9 +1,9 @@
 ﻿#include <iostream>
 
-extern int a;
-extern int b;
-extern int c;
-extern int d;
+extern int a; //from foo.cpp
+extern int b; //from foo.cpp
+extern int c; //from foo.cpp
+extern int d; //from foo.cpp
 
 int main() {
 
