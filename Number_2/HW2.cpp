@@ -3,8 +3,7 @@
 
 int main()
 {
-	int x = 22;
+	int x = 25;
 
-	std::cout << (x < 21) ? x - 21 :(x - 21) * 2;
+	std::cout << ((x < 21) ? (x - 21) : (x - 21) * 2);
 }
-
